@@ -1,0 +1,223 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 24px;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #3498db;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu .practice {
+    background-color: #fff; 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.menu p {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+    transition: transform 0.3s ease;
+}
+
+.menu p:hover {
+    transform: scale(1.1);
+}
+
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to bottom, #2980b9, #217dbb);
+}
+
+.btn-secondary {
+    padding: 15px 30px;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(to bottom, #2980b9, #217dbb);
+}
+
+.message-box {
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.message-content {
+    color: #333;
+}
+
+.message-content h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.message-content p {
+    font-size: 20px;
+}
+
+.container h2 {
+    margin-top: 20px;
+}
+
+.btn-exercise {
+    padding: 15px 30px;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-exercise:hover {
+    background: linear-gradient(to bottom, #2980b9, #217dbb);
+}
+
+.student-info {
+    text-align: center;
+    margin-top: 30px;
+    color: #3498db;
+}
+
+.student-info h3 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.student-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+/* RESPONSIVO */
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 6vw;
+    }
+
+    .header p {
+        font-size: 3vw;
+    }
+
+    .menu h2 {
+        font-size: 3vw;
+    }
+
+    .menu p {
+        font-size: 2vw;
+    }
+
+    .menu .practice {
+        padding: 2%;
+        margin: 2% 0;
+    }
+
+    .message-content h2 {
+        font-size: 4vw;
+    }
+
+    .message-content p {
+        font-size: 2vw;
+    }
+
+    .container h2 {
+        font-size: 3vw;
+    }
+
+    .btn-exercise, .button, .btn-primary, .btn-secondary {
+        padding: 3% 6%;
+        font-size: 3vw;
+    }
+
+    .student-info h3 {
+        font-size: 3vw;
+    }
+
+    .student-info p {
+        font-size: 2vw;
+    }
+}
+#practice2Image, #practice3Image {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+
